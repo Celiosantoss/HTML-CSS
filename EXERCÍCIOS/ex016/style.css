@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+*{ font-family: Arial, Helvetica, sans-serif;}
+    /* height: 100%;} */
+
+
+
+
+body{
+    background-image: linear-gradient(to right,#f1d8c9,#f2c3a7 );
+} /*degrade de cor no fundo*/
+
+main{
+    background-color: white; /*cor da página*/
+   border-radius: 10px; /*ponta da página*/
+box-shadow: 5px 5px 10px #634e42;
+    width: 600px; /*largura da página*/
+    padding: 12px; /*borda da página*/
+    margin:auto /*centralizar pãgina auto...*/
+
+}
+h1{color: #f39209;/*cor de todos h1*/
+text-align: center;
+text-shadow: 1px 1px 2px #e68a09 ;} /*largura,baixo e espalhamento*/   
+
+
+
+h2{color: #125189;} /*cor de todos h2*/
+
+
+
+p{
+    text-align: justify; /*alinhar parágrafos*/
+}
