@@ -52,13 +52,23 @@ section.imagem{
     background-color: rgba(69, 64, 64, 0.625);
     color: white;
 }
-section>p{
+section.imagem >p {
     display: inline-block;
     padding: 5px;
+    
     background-color: black;
-    color: white;
-    width: 400px;
-    font-size: 25px;
+}
+section > p {
+padding-bottom: 2em;
+}
+section#img1{
+background-image: url(imagens/background001.jpg);
+
+}
+
+section#img2{
+background-image: url(imagens/background002.jpg);
+
 }
 a{
     color: white;
