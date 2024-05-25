@@ -40,39 +40,49 @@ section{
     line-height: 2em;
     padding-left:20px ;
     font-family: var(--font2);
-    font-size: 3vh;
+    font-size: 3.5vh;
 }
 section.normal{
     background-color: white;
     color: black;
+    
     
 
 }
 section.imagem{
     background-color: rgba(69, 64, 64, 0.625);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
 }
-section.imagem >p {
+section.imagem > p {
     display: inline-block;
     padding: 5px;
+    font-size: 30px;
     
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.486);
+    text-shadow: 2px 2px 0px black;
+    width: 300px;
 }
 section > p {
 padding-bottom: 2em;
+font-weight: bolder;
 }
 section#img1{
 background-image: url(imagens/background001.jpg);
-
+background-position: right center;
+background-size: cover;
 }
 
 section#img2{
 background-image: url(imagens/background002.jpg);
-
+background-position: right;
+background-size: cover;
 }
 a{
     color: white;
-    font: bolder;
+    font-weight: bolder;
     text-decoration: none;
 }
 a:hover{
